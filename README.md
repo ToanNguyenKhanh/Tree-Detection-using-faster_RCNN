@@ -6,16 +6,22 @@ This repository contains a project focused on detecting trees within images usin
 
 Tree detection is crucial for various applications such as forestry management, urban planning, and environmental monitoring. This project aims to provide an accurate and efficient solution for automatically detecting trees within images.
 
+<p align="center">
+  <img src="demo/result_demo.gif" alt="Demo video">
+</p>
+
+<p align="center"><em>Result</em></p> 
+
 ## Model Details
 
 - **Model Architecture**: Faster R-CNN with MobileNetV3 Large 320 FPN Backbone
 - **Trainable Backbone Layers**: 5
-- **Input Image Size**: 320x320 pixels (configurable)
+- **Input Image Size**: configurable
 - **Output**: Bounding boxes around detected trees
 
 ## Dataset
 
-The model has been trained on a diverse dataset containing images with annotated bounding boxes around individual trees. The dataset is available [here](https://roboflow.com/) (insert link to your dataset on Roboflow).
+The model has been trained on a diverse dataset containing images with annotated bounding boxes around individual trees. The dataset is available [here](https://universe.roboflow.com/yolo-for-tree-detection/tree-detection-ntf74) (insert link to your dataset on Roboflow).
 
 ## Performance
 
