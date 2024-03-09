@@ -31,6 +31,12 @@ The model has been trained on a diverse dataset containing images with annotated
 
 The model achieved a mean Average Precision (mAP) of 0.47, with mAP50 over 0.7 and mAP75 of 0.5. These values indicate moderate performance overall, with relatively good performance at lower IoU thresholds (mAP50) compared to higher IoU thresholds (mAP75).
 
+![Demo Screenshot](result/train_loss.png)
+![Demo Screenshot](result/mAP.png)
+![Demo Screenshot](result/mAP50.png)
+![Demo Screenshot](result/mAP75.png)
+
+
 ## Usage
 
 This model is particularly suitable for machines with limited computational resources. With a RAM capacity of only 4GB, the lightweight MobileNetV3 architecture enables efficient training and inference without overwhelming system resources.
