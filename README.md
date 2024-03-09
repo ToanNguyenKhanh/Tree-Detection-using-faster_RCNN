@@ -21,7 +21,7 @@ Tree detection is crucial for various applications such as forestry management, 
 
 ## Dataset
 
-The model has been trained on a diverse dataset containing images with annotated bounding boxes around individual trees. The dataset is available [here](https://universe.roboflow.com/yolo-for-tree-detection/tree-detection-ntf74) (insert link to your dataset on Roboflow).
+The model has been trained on a diverse dataset containing images with annotated bounding boxes around individual trees. The dataset is available [here](https://universe.roboflow.com/yolo-for-tree-detection/tree-detection-ntf74) 
 
 ## Performance
 
@@ -29,7 +29,7 @@ The model has been trained on a diverse dataset containing images with annotated
 - **mAP50**: 0.7
 - **mAP75**: 0.5
 
-The model achieved a mean Average Precision (mAP) of 0.47, with mAP50 of 0.7 and mAP75 of 0.5. These values indicate moderate performance overall, with relatively good performance at lower IoU thresholds (mAP50) compared to higher IoU thresholds (mAP75).
+The model achieved a mean Average Precision (mAP) of 0.47, with mAP50 over 0.7 and mAP75 of 0.5. These values indicate moderate performance overall, with relatively good performance at lower IoU thresholds (mAP50) compared to higher IoU thresholds (mAP75).
 
 ## Usage
 
@@ -40,9 +40,19 @@ This model is particularly suitable for machines with limited computational reso
 To run the detection model, you need the following dependencies:
 
 - Python 3.x
-- TensorFlow
-- TensorFlow Object Detection API
-- Other required libraries (specified in requirements.txt)
+- PyTorch
+- Other required libraries 
 
-Install the dependencies using:
+## Contributing
+
+Contributions to improve the model's performance, add features, or fix issues are welcome. Please fork the repository, make your changes, and submit a pull request detailing your modifications.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+Special thanks to the creators and contributors of the TensorFlow Object Detection API, MobileNetV3 architecture, and Faster R-CNN for providing the necessary tools and frameworks to develop this project.
+
 
