@@ -7,7 +7,7 @@ This repository contains a project focused on detecting trees within images usin
 Tree detection is crucial for various applications such as forestry management, urban planning, and environmental monitoring. This project aims to provide an accurate and efficient solution for automatically detecting trees within images.
 
 <p align="center">
-  <img src="demo/result_demo.gif" alt="Demo video">
+  <img src="result/demo.gif" alt="Demo video">
 </p>
 
 <p align="center"><em>Result</em></p> 
