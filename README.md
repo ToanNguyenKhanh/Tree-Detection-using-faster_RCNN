@@ -45,7 +45,7 @@ This model is particularly suitable for machines with limited computational reso
 
 To run the detection model, you need the following dependencies:
 
-- Python 3.x
+- Python 3.11
 - PyTorch
 - Other required libraries 
 
