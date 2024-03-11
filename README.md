@@ -46,7 +46,8 @@ This model is particularly suitable for machines with limited computational reso
 To run the detection model, you need the following dependencies:
 
 - Python 3.11
-- PyTorch
+- PyTorch 2.2
+- CUDA 12.1
 - Other required libraries 
 
 ## Contributing
