@@ -26,7 +26,7 @@ The model has been trained on a diverse dataset containing images with annotated
 ## Performance
 
 - **mAP**: 0.47
-- **mAP50**: 0.7
+- **mAP50**: 0.75
 - **mAP75**: 0.5
 
 The model achieved a mean Average Precision (mAP) of 0.47, with mAP50 over 0.7 and mAP75 of 0.5. These values indicate moderate performance overall, with relatively good performance at lower IoU thresholds (mAP50) compared to higher IoU thresholds (mAP75).
